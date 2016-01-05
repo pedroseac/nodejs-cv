@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- stylesheets -->
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- models -->
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="js/index.js"></script>
+
+		<!-- fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<header>
+			<div class="opaque"></div>
+			<div id="pseac">
+				<div class="title">
+					{{basics.name}}
+				</div>
+				<div class="subtitle">
+					{{basics.label}}
+				</div>
+				<div class="contacts">
+					<a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a>&nbsp;|&nbsp;{{basics.phone}}
+				</div>
+				<div class="links">
+					{{#basics.profiles}}
+						<a href="{{url}}" target="_blank"><i class="item fa fa-{{lower network}}"></i></a>
+					{{/basics.profiles}}
+				</div>
+			</div>
+			<footer><small>Made with a &nbsp;<i class="fa fa-keyboard-o"></i></small></footer>
+		</header>
+
+		<section id="info">
+				<div class="content">
+					<ul class="card education">
+						<div class="title">
+							<div class="bullet">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+							Education
+						</div>
+						<li class="area">
+							<div class="title">Computer Science</div>
+							<ul>
+								{{#education}}
+									<li><i>{{institution}}</i> - {{city}} - {{state}} - {{country}} - {{startDate}}/{{endDate}}</li>
+								{{/education}}
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="card skills">
+						<div class="title">
+							<div class="bullet">
+								<i class="fa fa-code"></i>
+							</div>
+							Skills
+						</div>
+						{{#skills}}
+							<li class="area {{name}}">
+								<div class="title">{{name}}</div>
+								<ul>
+									{{#keywords}}
+										<li>{{.}}</li>
+									{{/keywords}}
+								</ul>
+							</li>
+						{{/skills}}
+					</ul>
+
+					<ul class="card languages">
+						<div class="title">
+							<div class="bullet">
+								<i class="fa fa-globe"></i>
+							</div>
+							Languages
+						</div>
+						{{#languages}}
+						<li class="area">
+							<div class="title">{{language}}</div>
+							<ul>
+								<li>{{fluency}}</li>
+							</ul>
+						</li>
+						{{/languages}}
+					</ul>
+
+					<ul class="card employment">
+						<div class="title">
+							<div class="bullet">
+								<i class="fa fa-building"></i>
+							</div>
+							Employment
+						</div>
+						<div class="opaque-top"></div>
+						<div class="opaque-bot"></div>
+						<ul class="timeline">
+							{{#work}}
+								<li class="{{#evenOddClass @index same}}{{/evenOddClass}}">
+									<div class="bullet"><i class="fa fa-suitcase"></i></div>
+									<div class="content">
+										<div class="place">
+											<a target="_blank" href="{{website}}">
+												{{company}}
+											</a>
+											<span class="when">
+												<i class="fa fa-calendar"></i>
+												&nbsp;&nbsp;{{startDate}} - {{endDate}}
+											</span>
+										</div>
+										<div class="description">
+											{{summary}}
+										</div>
+									</div>
+								</li>
+							{{/work}}
+						</ul>
+					</ul>
+				</div>
+		</section>
+	</body>
+
+</html>
