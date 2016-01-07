@@ -29,7 +29,7 @@ app.use(lessmiddle('/less', {
 
 app.use(express.static(path.join(__dirname, 'public'))); // serve the files out of ./public as our main files
 
-require('./app/routes')(app); //routes
+require('./routes')(app); //routes
 
 // start server on the specified port and binding host
 app.listen(appEnv.port, '0.0.0.0', function() {
