@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // serve the files out 
 require('./routes')(app); //routes
 
 // start server on the specified port and binding host
-app.listen(appEnv.port, '0.0.0.0', function() {
+app.listen(appEnv.port, 'localhost', function() {
 	// print a message when the server starts listening
 	console.log("server starting on " + appEnv.url);
 });
