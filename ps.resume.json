@@ -139,8 +139,7 @@
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
 			"summary": "Assigned to a SAP big-data solution project as a full-stack consultant/developer. Worked with front-end during the mock-up of the project, later focusing on JAVA back-end developement. Worked with SAP frameworks and technologies for charts, servlets and integration solutions. Worked in Palo Alto (CA), Dublin (CA) and Reston (VA).",
-			"highlights": [],
-			"same": true
+			"highlights": []
 		},
 		{
 			"company": "Agile",
@@ -149,7 +148,8 @@
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
 			"summary": "Hired as a software back-end consultant.",
-			"highlights": []
+			"highlights": [],
+			"same": true
 		},
 		{
 			"company": "Saveway - Internship",

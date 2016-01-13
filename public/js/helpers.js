@@ -1,6 +1,11 @@
 module.exports = function(exphbs){
 	var inverted = false;
 
+	var isEven = function (number) {
+		if (number % 2 == 0) return "even";
+		else return "odd";
+	};
+
 	return exphbs.create({
 		// Specify helpers which are only registered on this instance.
 		helpers: {
@@ -8,22 +13,20 @@ module.exports = function(exphbs){
 				return str.toLowerCase(); 
 			},
 			evenOddClass: function (i, same) {
-				if  ((i % 2) == 0) {
+				if (inverted) {
 					if (same) {
 						inverted = !inverted;
-						return "odd same";
-					} else if (inverted) {
-						return "odd";
+						return isEven(i % 2) + " same";
+					} else {
+						return isEven((i % 2) + 1);
 					}
-					return "even";
 				} else {
 					if (same) {
 						inverted = !inverted;
-						return "even same";
-					} else if (inverted) {
-						return "even"; 
+						return isEven((i % 2) + 1) + " same";
+					} else {
+						return isEven(i % 2);
 					}
-					return "odd"; 
 				}
 			}
 		}
