@@ -43,6 +43,7 @@ body {
 	overflow: auto;
 
 	header {
+		.shadow;
 		.rectangle(100%, 350px);
 		position: relative;
 		background: -webkit-linear-gradient(-45deg, @blue-serenity, @rose-quartz);
@@ -213,10 +214,15 @@ body {
 
 							.content {
 								.shadow;
+								.transition;
 								width: ~'calc(50% - 30px)';
 								padding: 10px;
 								box-sizing: border-box;
 								background-color: @gray-light;
+
+								&:hover {
+									.shadow(3);
+								}
 
 								.place {
 									color: @blue-serenity;
