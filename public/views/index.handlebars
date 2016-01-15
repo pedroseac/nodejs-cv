@@ -63,12 +63,12 @@
 							Education
 						</div>
 						<li class="area">
-							<div class="title">Computer Science</div>
-							<ul>
-								{{#education}}
+							{{#education}}
+								<div class="title">{{area}}</div>
+								<ul>
 									<li><i>{{institution}}</i> - {{city}} - {{state}} - {{country}} - {{startDate}}/{{endDate}}</li>
-								{{/education}}
-							</ul>
+								</ul>
+							{{/education}}
 						</li>
 					</ul>
 

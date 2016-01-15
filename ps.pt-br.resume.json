@@ -1,0 +1,164 @@
+{
+	"basics": {
+		"name": "pedro seac",
+		"label": "front end dev",
+		"picture": "",
+		"email": "pv.seac@gmail.com",
+		"phone": "+55 (11) 997744492",
+		"website": "http://pseac.me",
+		"summary": "",
+		"location": {
+			"address": "Rua Ouvidor Peleja, 779, apt 11",
+			"postalCode": "041614-001",
+			"city": "São Paulo",
+			"countryCode": "BR",
+			"region": "São Paulo"
+		},
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "pedroseac",
+				"url": "//github.com/pedroseac"
+			},
+			{
+				"network": "Twitter",
+				"username": "pedroseac",
+				"url": "//twitter.com/pedroseac"
+			},
+			{
+				"network": "Facebook",
+				"username": "pedroseac",
+				"url": "//facebook.com/pedroseac"
+			},
+			{
+				"network": "Linkedin",
+				"username": "pedroseac",
+				"url": "//linkedin.com/in/pedroseac"
+			}
+		]
+	},
+	"education": [
+		{
+			"institution": "Universidade Estadual de Campinas",
+			"area": "Ciência da Computação",
+			"studyType": "Bachelor",
+			"startDate": "2008",
+			"endDate": "2013",
+			"city": "Campinas",
+			"state": "SP",
+			"country": "Brazil"
+		}
+	],
+	"skills": [
+		{
+			"name": "front",
+			"keywords": [
+				"html5",
+				"css/less/sass",
+				"javascript",
+				"python",
+				"mvc",
+				"rest"
+			]
+		},
+		{
+			"name": "javascript",
+			"keywords": [
+				"node.js",
+				"angularjs",
+				"typescript",
+				"reactjs",
+				"jquery"
+			]
+		},
+		{
+			"name": "back",
+			"keywords": [
+				"java",
+				"c#"
+			]
+		},
+		{
+			"name": "database",
+			"keywords": [
+				"mysql",
+				"mongodb",
+				"hana"
+			]
+		},
+		{
+			"name": "miscellaneous",
+			"keywords": [
+				"git",
+				"tfs",
+				"agile"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "portuguese",
+			"fluency": "native"
+		}, 
+		{
+			"language": "english",
+			"fluency": "fluent [listening, speaking, reading, writting]"
+		},
+		{
+			"language": "Shanghainese",
+			"fluency": "fluent [listening, speaking]"
+		},
+		{
+			"language": "Mandarin",
+			"fluency": "intermediate [listening, speaking]"
+		}
+	],
+	"work": [
+		{
+			"company": "QuintoAndar",
+			"position": "front-end developer",
+			"website": "//quintoandar.com.br",
+			"startDate": "Jul/2015",
+			"endDate": "present",
+			"summary": "Front-end developer on a Real State online solution, with online search, pre-visiting, scheduling, negotiating and closing. Technologies used: ReactJS, LESS, Django, Freemarker Template. Also worked with back-end development, with JAVA and Python. ",
+			"highlights": []
+		},
+		{
+			"company": "Spring",
+			"position": "full-stack developer",
+			"website": "//springglobal.com/",
+			"startDate": "Nov/2014",
+			"endDate": "Jun/215",
+			"summary": "Full-stack developer. Worked with products area, developing new features for companies sales force and management solution. Developed with AngularJS, Typescript, LESS, C# and SQLServer.",
+			"highlights": []
+		},
+		{
+			"company": "SAP - SCI365 project",
+			"position": "back-end developer",
+			"website": "//sap.com/asset/detail.2014-02-feb.sap-consumer-insight-365-mp4.html",
+			"startDate": "Oct/2013",
+			"endDate": "Oct/2014",
+			"summary": "Assigned to a SAP big-data solution project as a full-stack consultant/developer. Worked with front-end during the mock-up of the project, later focusing on JAVA back-end developement. Worked with SAP frameworks and technologies for charts, servlets and integration solutions. Worked in Palo Alto (CA), Dublin (CA) and Reston (VA).",
+			"highlights": []
+		},
+		{
+			"company": "Agile",
+			"position": "consultant",
+			"website": "//agilesolutions.com/",
+			"startDate": "Oct/2013",
+			"endDate": "Oct/2014",
+			"summary": "Hired as a software back-end consultant.",
+			"highlights": [],
+			"same": true
+		},
+		{
+			"company": "Saveway - Internship",
+			"position": "assembly developer",
+			"website": "//saveway.com.br/",
+			"startDate": "June/2011",
+			"endDate": "June/2012",
+			"summary": "Assembly, C and JAVA developer on truck fleet management automation solution.",
+			"highlights": []
+		}
+	]
+}
