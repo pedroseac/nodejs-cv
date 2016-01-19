@@ -30,9 +30,10 @@ app.engine('handlebars', hbs.engine);
 // })); // compile less
 
 app.use(sassmiddle({
-	src: __dirname + '/public/scss',
-	dest: __dirname + '/public/css'
-	// debug: true
+	src: path.join(__dirname, 'public'),
+	dest: path.join(__dirname, 'public')
+	, debug: true
+	, force: true
 }));
 
 app.use(express.static(path.join(__dirname, 'public'))); // serve the files out of ./public as our main files
