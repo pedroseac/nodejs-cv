@@ -31,8 +31,8 @@ app.engine('handlebars', hbs.engine);
 
 app.use(sassmiddle({
 	src: __dirname + '/public/scss',
-	dest: __dirname + '/public/css',
-	debug: true
+	dest: __dirname + '/public/css'
+	// debug: true
 }));
 
 app.use(express.static(path.join(__dirname, 'public'))); // serve the files out of ./public as our main files

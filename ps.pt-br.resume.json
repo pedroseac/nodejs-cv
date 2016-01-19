@@ -41,12 +41,12 @@
 		{
 			"institution": "Universidade Estadual de Campinas",
 			"area": "Ciência da Computação",
-			"studyType": "Bachelor",
+			"studyType": "Bacharelado",
 			"startDate": "2008",
 			"endDate": "2013",
 			"city": "Campinas",
 			"state": "SP",
-			"country": "Brazil"
+			"country": "Brasil"
 		}
 	],
 	"skills": [
@@ -56,7 +56,6 @@
 				"html5",
 				"css/less/sass",
 				"javascript",
-				"python",
 				"mvc",
 				"rest"
 			]
@@ -75,11 +74,13 @@
 			"name": "back",
 			"keywords": [
 				"java",
-				"c#"
+				"python",
+				"c#",
+				"c"
 			]
 		},
 		{
-			"name": "database",
+			"name": "banco de dados",
 			"keywords": [
 				"mysql",
 				"mongodb",
@@ -87,7 +88,7 @@
 			]
 		},
 		{
-			"name": "miscellaneous",
+			"name": "outros",
 			"keywords": [
 				"git",
 				"tfs",
@@ -97,35 +98,35 @@
 	],
 	"languages": [
 		{
-			"language": "portuguese",
-			"fluency": "native"
+			"language": "português",
+			"fluency": "nativo"
 		}, 
 		{
-			"language": "english",
-			"fluency": "fluent [listening, speaking, reading, writting]"
+			"language": "inglês",
+			"fluency": "fluente [escuta, fala, leitura, escrita]"
 		},
 		{
-			"language": "Shanghainese",
-			"fluency": "fluent [listening, speaking]"
+			"language": "dialeto xangainês",
+			"fluency": "fluente [escuta, fala]"
 		},
 		{
-			"language": "Mandarin",
-			"fluency": "intermediate [listening, speaking]"
+			"language": "mandarin",
+			"fluency": "intermediário [escuta, fala]"
 		}
 	],
 	"work": [
 		{
 			"company": "QuintoAndar",
-			"position": "front-end developer",
+			"position": "desenvolvedor front-end",
 			"website": "//quintoandar.com.br",
 			"startDate": "Jul/2015",
-			"endDate": "present",
+			"endDate": "atual",
 			"summary": "Front-end developer on a Real State online solution, with online search, pre-visiting, scheduling, negotiating and closing. Technologies used: ReactJS, LESS, Django, Freemarker Template. Also worked with back-end development, with JAVA and Python. ",
 			"highlights": []
 		},
 		{
 			"company": "Spring",
-			"position": "full-stack developer",
+			"position": "desenvolvedor full-stack",
 			"website": "//springglobal.com/",
 			"startDate": "Nov/2014",
 			"endDate": "Jun/215",
@@ -133,8 +134,8 @@
 			"highlights": []
 		},
 		{
-			"company": "SAP - SCI365 project",
-			"position": "back-end developer",
+			"company": "SAP - projeto SCI365",
+			"position": "desenvolvedor back-end",
 			"website": "//sap.com/asset/detail.2014-02-feb.sap-consumer-insight-365-mp4.html",
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
@@ -143,7 +144,7 @@
 		},
 		{
 			"company": "Agile",
-			"position": "consultant",
+			"position": "consultor",
 			"website": "//agilesolutions.com/",
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
@@ -152,8 +153,8 @@
 			"same": true
 		},
 		{
-			"company": "Saveway - Internship",
-			"position": "assembly developer",
+			"company": "Saveway - Estágio",
+			"position": "desenvolvedor assembly",
 			"website": "//saveway.com.br/",
 			"startDate": "June/2011",
 			"endDate": "June/2012",

@@ -56,7 +56,6 @@
 				"html5",
 				"css/less/sass",
 				"javascript",
-				"python",
 				"mvc",
 				"rest"
 			]
@@ -75,7 +74,9 @@
 			"name": "back",
 			"keywords": [
 				"java",
-				"c#"
+				"python",
+				"c#",
+				"c"
 			]
 		},
 		{
@@ -105,11 +106,11 @@
 			"fluency": "fluent [listening, speaking, reading, writting]"
 		},
 		{
-			"language": "Shanghainese",
+			"language": "shanghainese",
 			"fluency": "fluent [listening, speaking]"
 		},
 		{
-			"language": "Mandarin",
+			"language": "mandarin",
 			"fluency": "intermediate [listening, speaking]"
 		}
 	],
