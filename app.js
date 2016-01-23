@@ -15,22 +15,11 @@ var appEnv = cfenv.getAppEnv(); // get the app environment from Cloud Foundry
 var exphbs  = require('express-handlebars');
 var hbs = require('./public/js/helpers')(exphbs); //get handlebar engine with helpers
 
-// var lessmiddle = require("less-middleware");
-
 var sassmiddle = require("node-sass-middleware");
 
 app.set('views', __dirname + '/public/views'); //set views folder
 app.set('view engine', 'handlebars');
 app.engine('handlebars', hbs.engine);
-
-console.log(process.env);
-console.log(process.env.GTM_TAG);
-
-// app.use(lessmiddle('/less', {
-// 	dest: '/css',
-// 	pathRoot: path.join(__dirname, 'public'),
-// 	// force: true //compiles every request - only for dev
-// })); // compile less
 
 app.use(sassmiddle({
 	src: path.join(__dirname, 'public'),
