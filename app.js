@@ -23,6 +23,9 @@ app.set('views', __dirname + '/public/views'); //set views folder
 app.set('view engine', 'handlebars');
 app.engine('handlebars', hbs.engine);
 
+console.log(process.env);
+console.log(process.env.GTM_TAG);
+
 // app.use(lessmiddle('/less', {
 // 	dest: '/css',
 // 	pathRoot: path.join(__dirname, 'public'),
