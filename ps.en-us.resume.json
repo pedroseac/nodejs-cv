@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "pedro seac",
-		"label": "front end dev",
+		"label": "front end dev | ux enthusiast",
 		"picture": "",
 		"email": "pv.seac@gmail.com",
 		"phone": "+55 (11) 997744492",
@@ -92,7 +92,11 @@
 			"keywords": [
 				"git",
 				"tfs",
-				"agile"
+				"agile",
+				"google tag manager",
+				"google analytics",
+				"facebook pixel",
+				"aws"
 			]
 		}
 	],
@@ -121,7 +125,7 @@
 			"website": "//quintoandar.com.br",
 			"startDate": "Jul/2015",
 			"endDate": "present",
-			"summary": "Front-end developer on a Real State online solution, with online search, pre-visiting, scheduling, negotiating and closing. Technologies used: ReactJS, LESS, Django, Freemarker Template. Also worked with back-end development, with JAVA and Python. ",
+			"summary": "Front-end developer on a Real State online solution, with search, pre-visiting, scheduling, negotiating and closing. Technologies used: ReactJS, LESS, Django, Freemarker Template. Also worked with back-end development, with JAVA and Python. ",
 			"highlights": []
 		},
 		{

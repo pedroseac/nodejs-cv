@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "pedro seac",
-		"label": "front end dev",
+		"label": "front end dev | ux entusiasta",
 		"picture": "",
 		"email": "pv.seac@gmail.com",
 		"phone": "+55 (11) 997744492",
@@ -92,7 +92,11 @@
 			"keywords": [
 				"git",
 				"tfs",
-				"agile"
+				"agile",
+				"google tag manager",
+				"google analytics",
+				"facebook pixel",
+				"aws"
 			]
 		}
 	],
@@ -121,7 +125,7 @@
 			"website": "//quintoandar.com.br",
 			"startDate": "Jul/2015",
 			"endDate": "atual",
-			"summary": "Front-end developer on a Real State online solution, with online search, pre-visiting, scheduling, negotiating and closing. Technologies used: ReactJS, LESS, Django, Freemarker Template. Also worked with back-end development, with JAVA and Python. ",
+			"summary": "Envolvido no desenvolvimento de solução imobiliário self-service interamente online, com busca, \"pré-visita\", agendamento de visita, negociação e documentação.<br />Encarregado do desenvolvimento e manutenção do código front-end trabalho e planejamento do time de UX.<br />Tecnologias usadas incluiam ReactJS, LESS, Djando e Freemarker Template. Eventualmente auxiliava com desenvolvimento back-end em JAVA. Versinamento no Github.",
 			"highlights": []
 		},
 		{
@@ -130,7 +134,7 @@
 			"website": "//springglobal.com/",
 			"startDate": "Nov/2014",
 			"endDate": "Jun/215",
-			"summary": "Full-stack developer. Worked with products area, developing new features for companies sales force and management solution. Developed with AngularJS, Typescript, LESS, C# and SQLServer.",
+			"summary": "Projeto B2B para controle, administração e fiscalização de estoque. <br />Envolvido com planejamento, análise e desenvolvimento do processo de produção. Seguiamos o formato Agile de gerencimento.<br />Front-end plataforma era trabalhada em AngularJS e Typescript, enquanto back-end estava em C# e SQL, com versionamento em TFS.",
 			"highlights": []
 		},
 		{
@@ -139,7 +143,7 @@
 			"website": "//sap.com/asset/detail.2014-02-feb.sap-consumer-insight-365-mp4.html",
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
-			"summary": "Assigned to a SAP big-data solution project as a full-stack consultant/developer. Worked with front-end during the mock-up of the project, later focusing on JAVA back-end developement. Worked with SAP frameworks and technologies for charts, servlets and integration solutions. Worked in Palo Alto (CA), Dublin (CA) and Reston (VA).",
+			"summary": "Contratado como consultor back-end para criação de produto para análise de dados de empresas de telefonia. Trabalho com solucão big-data da SAP, HANA, para processor e analisar grandes quantidades de dados telefônicos (princialmente de dados).<br />Encarregado com o arquitetura e desenvolvimento da camada de acesso de dados (DAL) do produto, e com o desenvolvimento da camada de lógica de negócios (BLL)<br />A DAL foi trabalhada numa plataforma JAVA chamada Mediation Zone, e a BLL estava toda estruturada em \"<i>procedures</i> SQL\" ",
 			"highlights": []
 		},
 		{
@@ -148,7 +152,7 @@
 			"website": "//agilesolutions.com/",
 			"startDate": "Oct/2013",
 			"endDate": "Oct/2014",
-			"summary": "Hired as a software back-end consultant.",
+			"summary": "Contratado como consultor engenheiro e desenvolvedor.",
 			"highlights": [],
 			"same": true
 		},
@@ -158,7 +162,7 @@
 			"website": "//saveway.com.br/",
 			"startDate": "June/2011",
 			"endDate": "June/2012",
-			"summary": "Assembly, C and JAVA developer on truck fleet management automation solution.",
+			"summary": "Solução de controle e automação no processo de administração de frotas de caminhões. O produto era dividido em duas partes, um aparelho em assembly para medição das informações do caminhão e pneus, e uma plataforma PC em JAVA para análise dos dados.<br />Trabalhei na manutenção e desenvolvimento do aparelho em assembly.",
 			"highlights": []
 		}
 	]

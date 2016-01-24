@@ -37,10 +37,11 @@
 					{{basics.name}}
 				</div>
 				<div class="subtitle">
-					{{basics.label}}
+					{{{basics.label}}}
 				</div>
 				<div class="contacts">
-					<a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a>&nbsp;|&nbsp;{{basics.phone}}
+					<a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a><br />
+					{{basics.phone}}
 				</div>
 				<div class="links">
 					{{#basics.profiles}}
@@ -50,14 +51,14 @@
 			</div>
 			<footer>
 				<small>
-					Made with a &nbsp;<i class="fa fa-keyboard-o"></i>
+					Feito com um &nbsp;<i class="fa fa-keyboard-o"></i>
 					&nbsp;&nbsp;|&nbsp;&nbsp;
 					<a href="../files/pedro seac.pdf" download="Pedro Seac.pdf">
 						pdf&nbsp;<i class="fa fa-download"></i>
 					</a>
 					&nbsp;&nbsp;|&nbsp;&nbsp;
 					<a href="https://github.com/pedroseac/cv">
-						Source on &nbsp;<i class="fa fa-github"></i>
+						Fonte em &nbsp;<i class="fa fa-github"></i>
 					</a>
 				</small>
 			</footer>
@@ -70,7 +71,7 @@
 							<div class="bullet">
 								<i class="fa fa-graduation-cap"></i>
 							</div>
-							Education
+							Formação
 						</div>
 						<li class="area">
 							{{#education}}
@@ -87,7 +88,7 @@
 							<div class="bullet">
 								<i class="fa fa-code"></i>
 							</div>
-							Skills
+							Conhecimentos
 						</div>
 						{{#skills}}
 							<li class="area {{name}}">
@@ -106,7 +107,7 @@
 							<div class="bullet">
 								<i class="fa fa-globe"></i>
 							</div>
-							Languages
+							Idiomas
 						</div>
 						{{#languages}}
 						<li class="area">
@@ -123,7 +124,7 @@
 							<div class="bullet">
 								<i class="fa fa-building"></i>
 							</div>
-							Employment
+							Profissional
 						</div>
 						<div class="opaque-top"></div>
 						<div class="opaque-bot"></div>
@@ -142,7 +143,7 @@
 											</span>
 										</div>
 										<div class="description">
-											{{summary}}
+											{{{summary}}}
 										</div>
 									</div>
 								</li>
