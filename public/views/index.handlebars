@@ -45,7 +45,7 @@
 				</div>
 				<div class="links">
 					{{#basics.profiles}}
-						<a href="{{url}}" target="_blank"><i class="item fa fa-{{lower network}}"></i></a>
+						<a id="social-{{lower network}}" href="{{url}}" target="_blank"><i class="item fa fa-{{lower network}}"></i></a>
 					{{/basics.profiles}}
 				</div>
 			</div>
@@ -53,11 +53,11 @@
 				<small>
 					Made with a &nbsp;<i class="fa fa-keyboard-o"></i>
 					&nbsp;&nbsp;|&nbsp;&nbsp;
-					<a href="javascript:void(0)" onclick="window.location='/pdf'+window.location.search;">
+					<a id='download-pdf' target='_blank' href="javascript:void(0)" onclick="window.open('/pdf'+window.location.search, '_blank')">
 						pdf&nbsp;<i class="fa fa-download"></i>
 					</a>
 					&nbsp;&nbsp;|&nbsp;&nbsp;
-					<a href="https://github.com/pedroseac/cv">
+					<a id='goto-source' target='_blank' href="https://github.com/pedroseac/cv">
 						Source on &nbsp;<i class="fa fa-github"></i>
 					</a>
 				</small>
