@@ -1,22 +1,21 @@
 {
-	"name": "NodejsStarterApp",
-	"version": "0.0.1",
-	"description": "A sample nodejs app for Bluemix",
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"cfenv": "1.0.x",
-		"express": "^4.12.4",
-		"express-handlebars": "^2.0.1",
-		"handlebars": "^4.0.5",
-		"less": "2.5.3",
-		"less-middleware": "2.0.1",
-		"node-sass": "^3.4.2",
-		"node-sass-middleware": "^0.9.7"
-	},
-	"repository": {},
-	"engines": {
-		"node": "0.12.x"
-	}
+  "name": "NodejsCV",
+  "version": "1.0.0",
+  "description": "Nodejs CV",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x",
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "handlebars": "^4.0.5",
+    "jsonresume-theme-paper": "^0.3.2",
+    "node-sass": "^3.4.2",
+    "node-sass-middleware": "^0.9.7"
+  },
+  "repository": {},
+  "engines": {
+    "node": "0.12.x"
+  }
 }
